@@ -31,7 +31,7 @@ None
 TODO
 ------------
 
-Make some options optional. For example if we do not want to include the 'use' line at all, or we want to use a subdomain.
+Make some options optional. For example if we do not want to include the 'use' line at all, or we do not want to use a subdomain.
 
 Add in defaults for well known domain registrars.
 
