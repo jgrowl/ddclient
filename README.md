@@ -20,7 +20,7 @@ them are as follows:
     ddclient_login: mydomain.com
     ddclient_password: MY_PASSWORD
     ddclient_use: web, web=checkip.dyndns.org/
-    ddclient_subdomain: uac
+    ddclient_subdomain: mysubdomain                    # For example mysubdomain.example.com
 
 Dependencies
 ------------
