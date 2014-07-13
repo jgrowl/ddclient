@@ -14,15 +14,26 @@ Role Variables
 The variables that can be passed to this role and a brief description about
 them are as follows:
 
+    ddclient_syslog: yes
     ddclient_protocol: namecheap
     ddclient_server: dynamicdns.park-your-domain.com
     ddclient_login: mydomain.com
     ddclient_password: MY_PASSWORD
+    ddclient_use: web, web=checkip.dyndns.org/
+    ddclient_subdomain: uac
 
 Dependencies
 ------------
 
 None
+
+
+TODO
+------------
+
+Make some options optional. For example if we do not want to include the 'use' line at all, or we want to use a subdomain.
+
+Add in defaults for well known domain registrars.
 
 License
 -------
